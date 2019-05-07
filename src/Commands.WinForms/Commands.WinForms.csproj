@@ -12,6 +12,7 @@
     <ApplicationIcon>..\..\icon.ico</ApplicationIcon>
     <ApplicationManifest>..\app.winforms.manifest</ApplicationManifest>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <TargetPlatformVersion>10.0.10240.0</TargetPlatformVersion>
     <SignAssembly>true</SignAssembly>
     <DelaySign>false</DelaySign>
     <AssemblyOriginatorKeyFile>..\sgKey.snk</AssemblyOriginatorKeyFile>
@@ -46,6 +47,8 @@
     <Reference Include="System" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
+    <Reference Include="Windows.Data" />
+    <Reference Include="Windows.UI" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="..\GlobalAssemblyInfo.cs" />
